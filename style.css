@@ -42,6 +42,10 @@ a {
   color: #FF7A00;
 }
 
+.clear {
+  clear: both;
+}
+
 /*HEADER*/
 
 header {
@@ -81,6 +85,7 @@ header nav ul li a:hover {
 }
 
 #main-img h2 {
+  color: #cac1e4;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
@@ -107,7 +112,97 @@ header nav ul li a:hover {
 
 /*WORK*/
 
+#work ul {
+  margin: 80px;
+} p {
+  padding-bottom: 40px;
+  font-size: 1rem;
+}
+
 #work ul li {
-  width: 300px;
+  width: 250px;
   float: left;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#work h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+} .fa {
+  color: #59DECC;
+  margin: 15px auto;
+
+}
+
+/*POSSIBILITIES*/
+#possibilities {
+  background-color: #efefef;
+  padding: 60px 0;
+  text-align: center;
+} p {
+  font-size: 13px;
+}
+
+/*.overlay {
+  background: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  padding: 20px;
+}*/
+
+.vitrine {
+  background-image: url(img/img-2.jpg);
+  width: 400px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.marchand {
+  background-image: url(img/img-3.jpg);
+  width: 400px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+}
+
+.mobile {
+  background-image: url(img/img-5.jpg);
+  width: 400px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.robot {
+  background-image: url(img/img-4.jpg);
+  width: 400px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+article h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button-2 {
+  color: white;
+  background-color: #59DECC;
+  font-size: 1rem;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.button-2:hover {
+  background-color: #FF7A00;
 }
