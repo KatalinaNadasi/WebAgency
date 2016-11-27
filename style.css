@@ -145,46 +145,68 @@ header nav ul li a:hover {
   font-size: 13px;
 }
 
-/*.overlay {
-  background: rgba(255, 255, 255, 0.5);
+.overlay {
   width: 200px;
+  height: 270px;
+  border-radius: 10px;
   padding: 20px;
-}*/
+  float: left;
+  margin-right: 20px;
+}
 
 .vitrine {
-  background-image: url(img/img-2.jpg);
-  width: 400px;
-  height: 270px;
+  background: rgba(255, 255, 255, 0.95);
+  width: 240px;
+  height: 310px;
   float: left;
   border-radius: 10px;
+  padding-top: 20px;
   margin-right: 20px;
+}
+
+.vitrine:hover {
+  background-image: url(img/img-2.jpg);
 }
 
 .marchand {
-  background-image: url(img/img-3.jpg);
-  width: 400px;
-  height: 270px;
+  background: rgba(255, 255, 255, 0.95);
+  width: 240px;
+  height: 310px;
   float: left;
   border-radius: 10px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.marchand:hover{
+  background-image: url(img/img-3.jpg);
 }
 
 .mobile {
-  background-image: url(img/img-5.jpg);
-  width: 400px;
-  height: 270px;
+  background: rgba(255, 255, 255, 0.95);
+  width: 240px;
+  height: 310px;
   float: left;
   border-radius: 10px;
-  margin-right: 20px;
-  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.mobile:hover {
+  background-image: url(img/img-5.jpg);
 }
 
 .robot {
-  background-image: url(img/img-4.jpg);
-  width: 400px;
-  height: 270px;
+  background: rgba(255, 255, 255, 0.95);
+  width: 240px;
+  height: 310px;
   float: left;
   border-radius: 10px;
   margin-top: 20px;
+  padding-top: 20px;
+}
+
+.robot:hover{
+  background-image: url(img/img-4.jpg);
 }
 
 article h4 {
