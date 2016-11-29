@@ -23,6 +23,16 @@ h2 {
   font-size: 2.2rem;
 }
 
+h3 {
+  font-size: 30px;
+  width: 400px;
+  border-bottom: 1px solid #59DECC;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
 ul {
   list-style: none;
 }
@@ -203,10 +213,12 @@ header nav ul li a:hover {
   border-radius: 10px;
   margin-top: 20px;
   padding-top: 20px;
+  margin-right: 20px;
 }
 
 .robot:hover{
   background-image: url(img/img-4.jpg);
+  color:white;
 }
 
 article h4 {
@@ -227,4 +239,48 @@ article h4 {
 
 .button-2:hover {
   background-color: #FF7A00;
+}
+
+/*CONTACT*/
+
+#contact {
+  padding: 60px 0;
+  text-align: center;
+
+} p {
+  font-size: 1rem;
+  margin: 20px;
+}
+
+form {
+  margin: 60px 0 20px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #777;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  border: 2px solid #DDD;
+  border-radius: 3px;
+}
+
+.button-3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 11px;
+  background-color: #59DECC;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.button-3:hover {
+  background-color: grey;
 }
