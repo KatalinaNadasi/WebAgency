@@ -1,2 +1,2 @@
 # WebAgency
-Fast development of your website
+Development of a fake website using html and css
